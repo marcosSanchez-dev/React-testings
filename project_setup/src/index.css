@@ -1,0 +1,106 @@
+*,
+:root {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23252c;
+  padding: 2% 0;
+}
+
+main {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  margin: 0 auto;
+}
+
+/* INFO CONTAINER */
+
+.info--container,
+.about--container,
+.intereses--container {
+  background: #1a1b21;
+}
+
+.info--container {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.info--container img,
+.info--container {
+  border-radius: 10px 10px 0px 0px;
+}
+.info--container h2,
+.info--container h4,
+.info--container p,
+.button--container,
+.about--container,
+.intereses--container,
+.intereses--container h1 {
+  padding: 3% 0vw;
+}
+.info--container h4 {
+  color: #f3bf99;
+  font-weight: 400;
+}
+.info--container p {
+  font-size: 0.6vw;
+}
+
+#email--button,
+#linkedin--button {
+  padding: 7px 30px;
+  border-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+#email--button {
+  margin-right: 2%;
+}
+
+#linkedin--button {
+  background: #5093e2;
+  color: white;
+}
+
+/* About CONTAINER */
+.about--container,
+.intereses--container {
+  text-align: left;
+  padding: 1.5%;
+}
+.about--container h2 {
+  text-align: start;
+}
+
+/* fOOTER */
+.about--container,
+.intereses--container,
+footer {
+  width: 20%;
+  margin: 0 auto;
+}
+
+footer {
+  background: #161619;
+  text-align: center;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer img {
+  width: 70px;
+  padding: 8% 4%;
+  cursor: pointer;
+}
